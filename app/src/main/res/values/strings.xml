@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UTS_PemrogramanMobile_Hendriawan_22552011144_TIF222K</string>
+    <string name="sign_in">Sign In</string>
+    <string name="terra">Explore The Terra</string>
+    <string name="register">Register</string>
+    <string name="arknight">Arknight</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="sudah_mendaftar">Sudah Mendaftar?</string>
+    <string name="tidak_punya_akun">Tidak Punya Akun?</string>
+
+</resources>
