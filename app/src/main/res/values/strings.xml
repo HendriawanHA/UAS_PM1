@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UTS_PemrogramanMobile_Hendriawan_22552011144_TIF222K</string>
+    <string name="app_name">UAS_PemrogramanMobile_Hendriawan_22552011144_TIF222K</string>
     <string name="sign_in">Sign In</string>
     <string name="terra">Explore The Terra</string>
     <string name="register">Register</string>
@@ -9,5 +9,17 @@
     <string name="password">Password</string>
     <string name="sudah_mendaftar">Sudah Mendaftar?</string>
     <string name="tidak_punya_akun">Tidak Punya Akun?</string>
+    <string name="default_web_client_id">408809610771-1bj0ilc08t422qo2mfculao9vh819e12.apps.googleusercontent.com</string>
+    <string name="sub_judul">Sub Judul</string>
+    <string name="judul">Judul</string>
+    <string name="news_title">News Title</string>
+    <string name="news_subtitle">News Subtitle</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="masukan_judul">Masukan Judul</string>
+    <string name="masukan_deskripsi">Masukan Deskripsi</string>
+    <string name="gambar_yang_dipilih">Gambar yang dipilih</string>
+    <string name="pilih_gambar">Pilih Gambar</string>
+    <string name="simpan">Simpan</string>
 
 </resources>

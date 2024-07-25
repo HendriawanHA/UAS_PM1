@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:foreground="@drawable/foreground_design"
-        android:scaleType="center"
+        android:scaleType="centerCrop"
         android:src="@drawable/bg1"
         tools:layout_editor_absoluteX="-29dp"
         tools:layout_editor_absoluteY="-26dp" />
@@ -45,55 +45,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview4" />
 
-    <EditText
-        android:textColor="@color/white"
-        android:id="@+id/editText"
-        android:layout_width="0dp"
+    <Button
+        android:id="@+id/google_sign_in_button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginTop="30dp"
-        android:backgroundTint="#CCCCCC"
-        android:drawableLeft="@drawable/baseline_account_circle_24"
-        android:drawablePadding="13dp"
-        android:hint="@string/full_name"
-        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/google"
+        android:text="Sign in with Google"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview5"
-        app:layout_constraintWidth_percent=".8" />
+        tools:layout_editor_absoluteY="752dp" />
 
-    <EditText
-        android:textColor="@color/white"
-        android:id="@+id/editText2"
-        android:layout_width="0dp"
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#CCCCCC"
-        android:drawableLeft="@drawable/baseline_key_24"
-        android:drawablePadding="13dp"
-        android:hint="@string/password"
-        android:textColorHint="@color/white"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/google_sign_in_button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintWidth_percent=".8" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
 
-    <Button
-        android:id="@+id/register_button"
-        android:layout_width="270dp"
-        android:layout_height="60dp"
-        android:background="@drawable/btn_bg_design"
-        android:padding="14dp"
-        android:text="@string/sign_in"
-        android:textAllCaps="false"
-        android:textColor="#FBFBFB"
-        android:textStyle="bold"
-        app:layout_constrainedWidth="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
-        app:layout_constraintVertical_bias="0.117" />
 
     <TextView
         android:id="@+id/textview6"
@@ -108,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.431"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/register_button"
+        app:layout_constraintTop_toBottomOf="@id/google_sign_in_button"
         app:layout_constraintVertical_bias="0.108" />
 
     <TextView
@@ -117,14 +92,14 @@
         android:layout_height="wrap_content"
         android:text="@string/register"
         android:textAlignment="center"
-        android:textColor="@color/purple"
+        android:textColor="@color/red"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textview6"
-        app:layout_constraintTop_toBottomOf="@id/register_button"
+        app:layout_constraintTop_toBottomOf="@id/google_sign_in_button"
         app:layout_constraintVertical_bias="0.109" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
